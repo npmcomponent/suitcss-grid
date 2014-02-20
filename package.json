@@ -1,12 +1,9 @@
 {
-  "name": "suit-grid",
-  "private": true,
+  "name": "suitcss-grid",
   "version": "1.1.0",
-  "devDependencies": {
-    "component": "*",
-    "csslint": ">=0.9.10"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/csslint *.css"
-  }
+  "styles": [
+    "grid.css"
+  ],
+  "dependencies": {},
+  "license": "MIT"
 }
